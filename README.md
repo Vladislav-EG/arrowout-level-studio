@@ -26,7 +26,7 @@ The public build ships with an empty "Game" tab. There are two ways to see real 
 
    The script needs only Python 3, reads every `level_*.json` in the folder and writes a compact `window.PACKED_LEVELS = {...}` bundle. Replace the `levels.js` next to `index.html` with the generated one.
 
-2. **Import into the library** (editable): click the JSON import button and pick several `.json` files or a `.zip` archive. Every `*.json` inside the archive (in any subfolder) is added to the library; the level number is taken from the file name (`level_024.json` → 24) or the next free number is used.
+2. **Import into the library** (editable): click **Open JSON** in the header and pick several `.json` files or a `.zip` archive. Every `*.json` inside the archive (in any subfolder) is added to the library; the level number is taken from the file name (`level_024.json` → 24) or the next free number is used.
 
 ## Library storage warning
 
